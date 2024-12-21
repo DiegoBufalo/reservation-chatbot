@@ -1,0 +1,4 @@
+venv/
+modelo_reserva/
+.vscode/
+__pycache__/

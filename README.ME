@@ -1,0 +1,20 @@
+xecute o servidor Flask:
+source venv/bin/activate
+python3 app.py
+
+--- deactivate
+
+1. Precision: Proporção de entidades identificadas pelo modelo que estão corretas.
+Interpretação:
+    Alta precisão significa que o modelo comete poucos erros ao prever entidades.
+    Exemplo: Uma precisão de 0.833 indica que 83,3% das entidades previstas estão corretas.
+
+2. Recall: Proporção de entidades verdadeiras no conjunto de validação que o modelo conseguiu identificar.
+Interpretação:
+    Alto recall significa que o modelo identifica a maioria das entidades verdadeiras.
+    Exemplo: Um recall de 0.555 indica que o modelo conseguiu identificar 55,5% das entidades verdadeiras.
+
+3. F1-Score: Métrica que combina precisão e recall para fornecer uma visão geral do desempenho.
+Interpretação:
+    O F1-score é útil para medir o equilíbrio entre precisão e recall.
+    Exemplo: Um F1 de 0.666 indica que o modelo está equilibrado em termos de identificar corretamente as entidades e evitar falsos positivos.
